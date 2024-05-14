@@ -1,0 +1,38 @@
+.presentation {
+    background-color: #F9D0A3;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #DA001E;
+    padding-top: 20px;
+}
+
+.main_container p {
+    display: flex;
+    justify-content: center;
+}
+
+.figurines {
+    display: flex;
+    justify-content: center;
+}
+
+.figurines img {
+    width: 400px;
+    height: 400px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #DA001E;
+    padding-top: 20px;
+}
+
+.produits p {
+    display: flex;
+    justify-content: center;
+}

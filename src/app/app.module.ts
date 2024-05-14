@@ -7,7 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { ProductComponent } from './product/product.component';
+import { ProductlistComponent } from './productlist/productlist.component';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { ProductComponent } from './product/product.component';
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    ProductComponent
+    ProductlistComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    CommonModule
   ],
   providers: [
     provideClientHydration()

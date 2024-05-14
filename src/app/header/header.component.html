@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-3 col-3">
                 <div class="logo container">
-                    <img src="./assets/image/logo.jpg" alt="logo au petit village" class="logo">
+                    <img routerLink="/" src="./assets/image/logo.jpg" alt="logo au petit village" class="logo">
                 </div>
             </div>
             <div class="col-md-9 col-sm-9 col-9 text-end">
@@ -12,8 +12,9 @@
                 </div>
                 <div class="desktop_menu" [class.mobile_menu]="menuValue">
                     <ul>
-                        <li (click)="closeMenu()">A propos</li>
-                        <li (click)="closeMenu()">Produits</li>
+                        <li routerLink="/" (click)="closeMenu()">Accueil</li>
+                        <li routerLink="/about" (click)="closeMenu()">A propos</li>
+                        <li routerLink="/productlist" (click)="closeMenu()">Produits</li>
                     </ul>
                 </div>
             </div>
