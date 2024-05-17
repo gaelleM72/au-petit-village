@@ -1,4 +1,4 @@
-.presentation {
+main {
     background-color: #F9D0A3;
 }
 
@@ -35,4 +35,54 @@ h2 {
 .produits p {
     display: flex;
     justify-content: center;
+}
+
+section .container-card{
+    background-color: #F9D0A3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-img-top{
+    width: 150px;
+    height: 150px;
+}
+
+.card{
+    width: 250px;
+    height: 400px;
+}
+.card-title{
+    text-align: center;
+    color: #DA001E;
+}
+
+p{
+    text-align: center;
+}
+
+.card-deck{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background: #FDD90B;
+    color: #151217;
+    border: none;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: #DA001E;
 }
