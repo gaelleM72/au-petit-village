@@ -44,10 +44,7 @@ section .container-card{
     align-items: center;
 }
 
-.card-img-top{
-    width: 150px;
-    height: 150px;
-}
+
 
 .card{
     width: 250px;
@@ -60,6 +57,14 @@ section .container-card{
 
 p{
     text-align: center;
+    margin: 0;
+    padding-bottom: 10px 0px 10px;
+}
+
+.description{
+    margin: 0;
+    padding-top: 10px;
+    font-weight: 200;
 }
 
 .card-deck{
@@ -69,16 +74,12 @@ p{
     padding: 20px;
 }
 
-.card-footer{
-    display: flex;
-    justify-content: center;
-}
-
 button{
     background: #FDD90B;
     color: #151217;
     border: none;
     padding: 5px;
+    margin-top: 5px;
     font-weight: 600;
     border-radius: 10px;
 }
