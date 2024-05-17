@@ -1,7 +1,8 @@
 <header>
     <app-header></app-header>
 </header>
-<main class="presentation">
+<main>
+<section class="presentation">
     <h1>Au petit village</h1>
         <article class="main_container"> 
             <p>Au petit village est une entreprise qui confectionne des figurines inspirées de la bande dessinée Astérix et Obélix.</p>
@@ -12,8 +13,46 @@
         <article class="produits">
             <h2>Nos produits</h2>
             <p>Toutes nos figurines sont faites à la main par notre équipe de passionnée.</p>
+        <app-productlist></app-productlist>
         </article>
-</main>
+    </section>
+
+    <section class="container-card">
+        <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="./assets/image/abraracourcix.jpg" alt="abraracourcix">
+              <div class="card-body">
+                <h5 class="card-title">Abraracourcix</h5>
+                <p>Prix : 25€</p>
+              </div>
+              <div class="card-footer">
+                <button>Voir nos produits</button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="./assets/image/agecanonix.jpg" alt="agecanonix">
+              <div class="card-body">
+                <h5 class="card-title">Agecanonix</h5>
+                <p>Prix : </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="./assets/image/assurancetourix.jpg" alt="assurancetourix">
+              <div class="card-body">
+                <h5 class="card-title">assurancetourix</h5>
+                <p>Prix : </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </section>
+</main>        
+    
 <footer>
     <app-footer></app-footer>
 </footer>
