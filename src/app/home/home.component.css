@@ -50,11 +50,12 @@ section .container-card{
 }
 
 .card{
-    width: 300px;
+    width: 250px;
     height: 400px;
 }
 .card-title{
     text-align: center;
+    color: #DA001E;
 }
 
 p{
