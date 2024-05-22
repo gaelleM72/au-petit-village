@@ -13,6 +13,7 @@ import { CommonModule } from '@angular/common';
 import { BorderCardDirective } from './product/border-card.directive';
 import { FilterByNamePipePipe } from './home/filter-by-name-pipe';
 import { SortByPricePipe } from './home/sort-by-price.pipe';
+import { DetailFigurineComponent } from './detail-figurine/detail-figurine.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SortByPricePipe } from './home/sort-by-price.pipe';
     ProductlistComponent,
     BorderCardDirective,
     FilterByNamePipePipe,
-    SortByPricePipe
+    SortByPricePipe,
+    DetailFigurineComponent
   ],
   imports: [
     BrowserModule,

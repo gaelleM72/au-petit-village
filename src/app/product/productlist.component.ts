@@ -18,13 +18,5 @@ export class ProductlistComponent implements OnInit {
 
   selectFigurine(figurineId: string) {
     const figurine: Figurine|undefined = this.figurineList.find(figurine => figurine.id == +figurineId);
-    if(figurine) {
-      console.log(`vous avez selectionné cette figurine ${figurine.name}`);
-      this.figurineSelected = figurine;
-    } else {
-      console.log(`Ce gaulois n'existe pas.`);
-      this.figurineSelected = figurine;
-    }
-   
   }
 }
