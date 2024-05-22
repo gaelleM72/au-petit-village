@@ -7,10 +7,10 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { ProductlistComponent } from './productlist/productlist.component';
+import { ProductlistComponent } from './product/productlist.component';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { BorderCardDirective } from './productlist/border-card.directive';
+import { BorderCardDirective } from './product/border-card.directive';
 import { FilterByNamePipePipe } from './home/filter-by-name-pipe';
 import { SortByPricePipe } from './home/sort-by-price.pipe';
 
