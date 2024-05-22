@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { ProductlistComponent } from './productlist/productlist.component';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { BorderCardDirective } from './productlist/border-card.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CommonModule } from '@angular/common';
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    ProductlistComponent
+    ProductlistComponent,
+    BorderCardDirective
   ],
   imports: [
     BrowserModule,
