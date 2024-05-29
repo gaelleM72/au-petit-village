@@ -4,4 +4,6 @@ export class Figurine {
     picture: string;
     price: string;
     description: string;
+    detail: string;
+    dimension: string;
 }

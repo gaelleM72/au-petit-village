@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FIGURINES } from './figurine-list';
 import { Figurine } from './figurine';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-productlist',
@@ -11,6 +12,12 @@ import { Figurine } from './figurine';
 export class ProductlistComponent implements OnInit {
   figurineList: Figurine[] = FIGURINES;
   figurineSelected: Figurine|undefined;
+
+  constructor(private router: Router) {}
+
+  goToFigurine(figurine: Figurine) {
+    this.router.navigate(['/figurine', figurine.id]);
+  }
 
   ngOnInit() {
       console.table(this.figurineList);

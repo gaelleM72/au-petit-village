@@ -3,7 +3,7 @@
         <h1 class="center">Nos figurines</h1>
         <p>Toutes nos figurines sont faites à la main par notre équipe de gaulois.</p>
         <div *ngFor="let figurine of figurineList" class="col m3 s6">
-            <div class="card" (click)="selectFigurine" figurineBorderCard>
+            <div class="card" (click)="goToFigurine(figurine)" figurineBorderCard>
                 <div class="card-image">
                     <img [src]="figurine.picture" alt="{{ figurine.name }}"/>
                 </div>
