@@ -14,6 +14,8 @@ import { BorderCardDirective } from './product/border-card.directive';
 import { FilterByNamePipePipe } from './home/filter-by-name-pipe';
 import { SortByPricePipe } from './home/sort-by-price.pipe';
 import { DetailFigurineComponent } from './detail-figurine/detail-figurine.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,10 +28,12 @@ import { DetailFigurineComponent } from './detail-figurine/detail-figurine.compo
     BorderCardDirective,
     FilterByNamePipePipe,
     SortByPricePipe,
-    DetailFigurineComponent
+    DetailFigurineComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     FormsModule,
     CommonModule
