@@ -11,7 +11,7 @@ import { ProductlistComponent } from './product/productlist.component';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { BorderCardDirective } from './product/border-card.directive';
-import { FilterByNamePipePipe } from './home/filter-by-name-pipe';
+import { FilterByNamePipe } from './home/filter-by-name-pipe';
 import { SortByPricePipe } from './home/sort-by-price.pipe';
 import { DetailFigurineComponent } from './detail-figurine/detail-figurine.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -26,7 +26,7 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     ProductlistComponent,
     BorderCardDirective,
-    FilterByNamePipePipe,
+    FilterByNamePipe,
     SortByPricePipe,
     DetailFigurineComponent,
     PageNotFoundComponent
