@@ -12,6 +12,9 @@ import { Router } from '@angular/router';
 export class ProductlistComponent implements OnInit {
   figurineList: Figurine[] = FIGURINES;
   figurineSelected: Figurine|undefined;
+  searchText = '';
+  FIGURINES: any[] = [];
+  sortOrder: 'asc' | 'desc' = 'asc';
 
   constructor(private router: Router) {}
 
@@ -21,6 +24,10 @@ export class ProductlistComponent implements OnInit {
 
   ngOnInit() {
       console.table(this.figurineList);
+  }
+
+  getFIGURINES(): any[] {
+    return this.FIGURINES;
   }
 
   selectFigurine(figurineId: string) {

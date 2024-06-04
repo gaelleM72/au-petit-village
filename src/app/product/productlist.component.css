@@ -31,3 +31,14 @@ p {
 .description {
     font-size: small;
 }
+
+label {
+    color: #151217;
+}
+
+
+.form-control {
+    background-color: #F9D0A3;
+    border-color: #151217;
+}
+
