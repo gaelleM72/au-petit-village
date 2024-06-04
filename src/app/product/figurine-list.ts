@@ -39,7 +39,7 @@ export const FIGURINES: Figurine[] = [
     },
     {
         id: 5,
-        name: "Abraracourcix",
+        name: "Abraracourci",
         picture: "./assets/image/abraracourcix.jpg",
         price: 22,
         description: "Abraracourcix, notre chef",
