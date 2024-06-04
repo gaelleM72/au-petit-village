@@ -1,6 +1,8 @@
 .container {
+    display: flex;
+    justify-content: center;
     background-color: #F9D0A3;
-   
+
 }
 
 h1 {
@@ -32,6 +34,10 @@ p {
     font-size: small;
 }
 
+.recherche {
+    padding-bottom: 20px;
+}
+
 label {
     color: #151217;
 }
@@ -42,3 +48,9 @@ label {
     border-color: #151217;
 }
 
+@media screen and (min-width:128px) and (max-width:900px) {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+}

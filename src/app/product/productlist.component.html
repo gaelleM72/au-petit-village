@@ -17,7 +17,7 @@
             
         </div>
 
-        <div *ngFor="let figurine of figurineList | filterByName : searchText | sortByPrice : sortOrder" class="col m3 s6">
+        <div *ngFor="let figurine of figurineList | filterByName : searchText | sortByPrice : sortOrder" class="col m5 s7">
             <div class="card" (click)="goToFigurine(figurine)" figurineBorderCard>
                 <div class="card-image">
                     <img [src]="figurine.picture" alt="{{ figurine.name }}"/>
@@ -25,7 +25,7 @@
                 <div class="card-stacked">
                     <div class="card-content">
                         <h2>{{ figurine.name }}</h2>
-                        <p class="price">{{ figurine.price }} €</p>
+                        <p class="price">{{ figurine.price }} € </p>
                         <p class="description">{{ figurine.description }}</p>
                     </div>
             </div>

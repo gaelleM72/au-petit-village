@@ -37,3 +37,16 @@ h2 {
     color: #DA001E;
     font-weight: bolder;
 }
+
+@media screen and (min-width:128px) and (max-width:900px) {
+    .card {
+        display: flex;
+        flex-direction: inherit;
+    }
+
+    .card-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
